@@ -31,7 +31,7 @@ services:
     restart: always
 
     env_file:
-      - .env
+      - .env.docker
 
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
